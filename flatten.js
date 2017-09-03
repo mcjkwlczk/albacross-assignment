@@ -1,5 +1,5 @@
 function flatten(input) {
-	if (!input instanceof Array) {
+	if (!(input instanceof Array)) {
 	    return null;
 	}
 
